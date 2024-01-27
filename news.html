@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVerse: Coding, Culture, and Context</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800"></body>
+<header id="navbar" class="bg-white shadow py-4">
+    <div class="container mx-auto px-6">
+        <div class="text-xl font-semibold text-gray-700 mb-4">TechVerse</div>
+        <nav id="navContainer" class="flex flex-col lg:flex-row gap-4 text-gray-600">
+            <a href="blog.html" class="hover:text-gray-800 py-2 lg:inline-block">Home</a>
+            <div class="relative lg:inline-block">
+                <a href="#" id="categoriesBtn" class="hover:text-gray-800 py-2 lg:inline-block">Categories</a>
+                <div id="categoriesDropdown" class="hidden absolute bg-white shadow-md mt-1">
+                    <a href="history-of-it.html" class="block px-4 py-2 hover:bg-gray-200">History of IT</a>
+                    <a href="it-and-society.html" class="block px-4 py-2 hover:bg-gray-200">IT and Society</a>
+                    <a href="news.html" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                    <a href="ai.html" class="block px-4 py-2 hover:bg-gray-200">AI</a>
+                </div>
+            </div>
+            <a href="about.html" class="hover:text-gray-800 py-2 lg:inline-block">About</a>
+            <a href="email.html" class="hover:text-gray-800 py-2 lg:inline-block">Contact</a>
+        </nav>
+        
+        
+    </div>
+</header>
+    <main class="container mx-auto px-6 pt-10">
+    <div class="container mx-auto px-4 py-10 max-w-3xl">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">Tech Industry Layoffs in January 2024: A Reflection and Future Outlook</h1>
+        <img src="./images/layoffs.jpeg" alt="layoffs of 2024" class="w-full rounded-lg shadow-md mb-8">
+        <article class="bg-white shadow-lg rounded-lg px-8 py-6">
+            <p class="text-gray-600 mb-4">
+                The tech industry faced significant layoffs in January 2024, marking a challenging start to the year for many tech giants and startups alike. The layoffs have been attributed to various factors including economic downturns, shifts in consumer behavior, and rapid changes in technology.
+            </p>
+            <p class="text-gray-600 mb-4">
+                Companies have been reevaluating their strategies and operations, leading to job cuts in multiple departments. While these layoffs are undeniably tough for those affected, they also reflect the volatile nature of the tech industry, where innovation and market demands continuously reshape the workforce landscape.
+            </p>
+            <p class="text-gray-600 mb-4">
+                As the industry navigates through these turbulent times, it's crucial for companies and employees alike to adapt to the changing dynamics. Embracing continuous learning, staying flexible, and fostering resilience are key to thriving in an environment where change is the only constant.
+            </p>
+            <p class="text-gray-600">
+                Looking ahead, the tech industry is expected to continue evolving rapidly. While the prospect of future layoffs cannot be entirely ruled out, there is also a strong potential for growth and innovation. Emerging technologies and markets present new opportunities, and companies that can strategically align themselves with future trends are likely to emerge stronger and more resilient.
+            </p>
+        </article>
+    </div>
+    </main>
+    <footer class="bg-white shadow py-6 mt-20">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600 text-sm">© 2024 TechVerse. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

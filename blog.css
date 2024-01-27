@@ -1,0 +1,23 @@
+module.exports = {
+    purge: [],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+      extend: {
+        colors: {
+          cozyblue: {
+            light: '#ebf8ff',
+            DEFAULT: '#4299e1',
+            dark: '#2b6cb0',
+          },
+        },
+        borderRadius: {
+          'xl': '1rem',
+        }
+      },
+    },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
+  }
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVerse: Coding, Culture, and Context</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800"></body>
+<header id="navbar" class="bg-white shadow py-4">
+    <div class="container mx-auto px-6">
+        <div class="text-xl font-semibold text-gray-700 mb-4">TechVerse</div>
+        <nav id="navContainer" class="flex flex-col lg:flex-row gap-4 text-gray-600">
+            <a href="blog.html" class="hover:text-gray-800 py-2 lg:inline-block">Home</a>
+            <div class="relative lg:inline-block">
+                <a href="#" id="categoriesBtn" class="hover:text-gray-800 py-2 lg:inline-block">Categories</a>
+                <div id="categoriesDropdown" class="hidden absolute bg-white shadow-md mt-1">
+                    <a href="history-of-it.html" class="block px-4 py-2 hover:bg-gray-200">History of IT</a>
+                    <a href="it-and-society.html" class="block px-4 py-2 hover:bg-gray-200">IT and Society</a>
+                    <a href="news.html" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                    <a href="ai.html" class="block px-4 py-2 hover:bg-gray-200">AI</a>
+                </div>
+            </div>
+            <a href="about.html" class="hover:text-gray-800 py-2 lg:inline-block">About</a>
+            <a href="email.html" class="hover:text-gray-800 py-2 lg:inline-block">Contact</a>
+        </nav>
+        
+        
+    </div>
+</header>
+    <main class="container mx-auto px-6 pt-10">
+    <div class="container mx-auto px-4 py-10 max-w-3xl">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">The Connection Between Social Media & Depression</h1>
+        <img src="images/media-depression.jpeg" alt="social media and depression" class="w-full rounded-lg shadow-md mb-8">
+        <article class="bg-white shadow-lg rounded-lg px-8 py-6">
+            <p class="text-gray-600 mb-4">
+                In the digital age, social media platforms have become an integral part of our daily lives, offering unprecedented opportunities for connectivity and expression. However, alongside the positive aspects, a growing body of research suggests a correlation between excessive social media use and an increased risk of depression, especially among young adults and teenagers.
+            </p>
+            <p class="text-gray-600 mb-4">
+                The constant exposure to curated highlights of others' lives can lead to feelings of inadequacy and low self-esteem. The pressure to maintain a certain image, the pursuit of likes and validation, and the fear of missing out (FOMO) can contribute to anxiety and depressive symptoms.
+            </p>
+            <p class="text-gray-600 mb-4">
+                Moreover, the addictive nature of social media can lead to excessive screen time, disrupting sleep patterns and reducing physical activity, both of which are crucial for mental and emotional well-being. The platform algorithms designed to keep users engaged can create echo chambers, reinforcing negative feelings and thoughts.
+            </p>
+            <p class="text-gray-600">
+                It's crucial to foster a balanced approach to social media use, encouraging self-awareness and promoting digital wellness practices. While social media can offer meaningful connections and support, it's essential to recognize its potential impact on mental health and take proactive steps to mitigate the risks.
+            </p>
+        </article>
+    </div>
+    </main>
+    <footer class="bg-white shadow py-6 mt-20">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600 text-sm">© 2024 TechVerse. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

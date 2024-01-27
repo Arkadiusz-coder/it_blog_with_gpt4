@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVerse: Coding, Culture, and Context</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800"></body>
+<header id="navbar" class="bg-white shadow py-4">
+    <div class="container mx-auto px-6">
+        <div class="text-xl font-semibold text-gray-700 mb-4">TechVerse</div>
+        <nav id="navContainer" class="flex flex-col lg:flex-row gap-4 text-gray-600">
+            <a href="blog.html" class="hover:text-gray-800 py-2 lg:inline-block">Home</a>
+            <div class="relative lg:inline-block">
+                <a href="#" id="categoriesBtn" class="hover:text-gray-800 py-2 lg:inline-block">Categories</a>
+                <div id="categoriesDropdown" class="hidden absolute bg-white shadow-md mt-1">
+                    <a href="history-of-it.html" class="block px-4 py-2 hover:bg-gray-200">History of IT</a>
+                    <a href="it-and-society.html" class="block px-4 py-2 hover:bg-gray-200">IT and Society</a>
+                    <a href="news.html" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                    <a href="ai.html" class="block px-4 py-2 hover:bg-gray-200">AI</a>
+                </div>
+            </div>
+            <a href="about.html" class="hover:text-gray-800 py-2 lg:inline-block">About</a>
+            <a href="email.html" class="hover:text-gray-800 py-2 lg:inline-block">Contact</a>
+        </nav>
+        
+        
+    </div>
+</header>
+    <main class="container mx-auto px-6 pt-10">
+    <div class="container mx-auto px-4 py-10 max-w-3xl">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">5 Ways to Use AI in Website Creation</h1>
+        <img src="./images/ai_control.webp" alt="image of an robot taking control over the world" class="w-full rounded-lg shadow-md mb-8">
+        <article class="bg-white shadow-lg rounded-lg px-8 py-6">
+            <p class="text-gray-600 mb-4">
+                AI is revolutionizing the way we design and develop websites. Here are five practical ways you can leverage AI to create compelling, efficient, and user-friendly websites:
+            </p>
+            <ol class="list-decimal list-inside space-y-2">
+                <li class="text-gray-600 mb-2">
+                    <strong>Automated Design Suggestions:</strong> Utilize AI tools that analyze your content and provide design recommendations. For example, platforms like Wix ADI can suggest layouts, color schemes, and more based on your preferences and content.
+                </li>
+                <li class="text-gray-600 mb-2">
+                    <strong>Content Personalization:</strong> Implement AI to analyze user data and behavior to provide personalized content and experiences. This can significantly improve user engagement and conversion rates.
+                </li>
+                <li class="text-gray-600 mb-2">
+                    <strong>AI Chatbots:</strong> Integrate AI-powered chatbots to improve user interaction and provide immediate assistance. Chatbots can handle inquiries, guide users, and even collect feedback.
+                </li>
+                <li class="text-gray-600 mb-2">
+                    <strong>SEO Optimization:</strong> Use AI to optimize your website's content for search engines. AI can suggest keywords, analyze the effectiveness of your content, and even help you understand evolving SEO trends.
+                </li>
+                <li class="text-gray-600">
+                    <strong>Image and Video Recognition:</strong> Enhance your website's media content with AI-powered image and video recognition technologies. This can be used for creating interactive media galleries, cataloging products, and more.
+                </li>
+            </ol>
+        </article>
+    </div>
+
+    <footer class="bg-white shadow py-6 mt-20">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600 text-sm">© 2024 TechVerse. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

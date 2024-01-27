@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVerse: Coding, Culture, and Context</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800"></body>
+<header id="navbar" class="bg-white shadow py-4">
+    <div class="container mx-auto px-6">
+        <div class="text-xl font-semibold text-gray-700 mb-4">TechVerse</div>
+        <nav id="navContainer" class="flex flex-col lg:flex-row gap-4 text-gray-600">
+            <a href="blog.html" class="hover:text-gray-800 py-2 lg:inline-block">Home</a>
+            <div class="relative lg:inline-block">
+                <a href="#" id="categoriesBtn" class="hover:text-gray-800 py-2 lg:inline-block">Categories</a>
+                <div id="categoriesDropdown" class="hidden absolute bg-white shadow-md mt-1">
+                    <a href="history-of-it.html" class="block px-4 py-2 hover:bg-gray-200">History of IT</a>
+                    <a href="it-and-society.html" class="block px-4 py-2 hover:bg-gray-200">IT and Society</a>
+                    <a href="news.html" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                    <a href="ai.html" class="block px-4 py-2 hover:bg-gray-200">AI</a>
+                </div>
+            </div>
+            <a href="about.html" class="hover:text-gray-800 py-2 lg:inline-block">About</a>
+            <a href="email.html" class="hover:text-gray-800 py-2 lg:inline-block">Contact</a>
+        </nav>
+        
+        
+    </div>
+</header>
+    <main class="container mx-auto px-6 pt-10">
+    <div class="container mx-auto px-4 py-10 max-w-3xl">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-6">Ada Lovelace & The Concept of Computer</h1>
+        <img src="./images/ada_lovelace.jpeg" alt="Ada Lovelace" class="w-full rounded-lg shadow-md mb-8">
+        <article class="bg-white shadow-lg rounded-lg px-8 py-6">
+            <p class="text-gray-600 mb-4">
+                Ada Lovelace, often considered the world's first computer programmer, was a visionary mathematician whose work laid the groundwork for the modern computer. In collaboration with Charles Babbage, the inventor of the first mechanical computer, Lovelace was instrumental in conceptualizing how a machine could not only calculate but also create.
+            </p>
+            <p class="text-gray-600 mb-4">
+                Babbage's design of the Analytical Engine, an early mechanical general-purpose computer, was a marvel of its time. However, it was Lovelace's notes and annotations that illuminated its potential. She envisaged a future where machines like the Analytical Engine could manipulate symbols in accordance with rules and even compose elaborate and scientific pieces of music.
+            </p>
+            <p class="text-gray-600 mb-4">
+                Lovelace's contributions went beyond mere calculation - she proposed that the machine had capabilities to execute tasks of a general nature, essentially foreseeing the potential of computers long before the digital age. Her vision of computing extended beyond numerical calculations to what we now call algorithms and programming.
+            </p>
+            <p class="text-gray-600">
+                Although Ada Lovelace and Charles Babbage were far ahead of their time, their work laid the essential foundations for the computers we use today. Lovelace's insight that computers could go beyond number crunching to perform any task that could be logically described sets the stage for the incredibly versatile and powerful devices in the hands of millions today.
+            </p>
+        </article>
+    </div>
+    </main>
+    <footer class="bg-white shadow py-6 mt-20">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600 text-sm">© 2024 TechVerse. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
