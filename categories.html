@@ -12,12 +12,20 @@
             <div>
                 <a href="#" class="text-xl font-semibold text-gray-700">TechVerse</a>
             </div>
-            <nav class="space-x-4 text-gray-600">
-                <a href="#" class="hover:text-gray-800">Home</a>
-                <a href="#" class="hover:text-gray-800">Categories</a>
-                <a href="#" class="hover:text-gray-800">About</a>
-                <a href="#" class="hover:text-gray-800">Contact</a>
-            </nav>
+            <nav id="navContainer" class="flex flex-col lg:flex-row gap-4 text-gray-600">
+            <a href="blog.html" class="hover:text-gray-800 py-.3 lg:inline-block">Home</a>
+            <div class="relative lg:inline-block">
+                <a href="#" id="categoriesBtn" class="hover:text-gray-800 py-.3 lg:inline-block">Categories</a>
+                <div id="categoriesDropdown" class="hidden absolute bg-white shadow-md mt-1">
+                    <a href="history-of-it.html" class="block px-4 py-2 hover:bg-gray-200">History of IT</a>
+                    <a href="it-and-society.html" class="block px-4 py-2 hover:bg-gray-200">IT and Society</a>
+                    <a href="news.html" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                    <a href="ai.html" class="block px-4 py-2 hover:bg-gray-200">AI</a>
+                </div>
+            </div>
+            <a href="about.html" class="hover:text-gray-800 py-.3 lg:inline-block">About</a>
+            <a href="email.html" class="hover:text-gray-800 py-.3 lg:inline-block">Contact</a>
+        </nav>
         </div>
     </header>
     <main class="container mx-auto px-6 pt-10">
